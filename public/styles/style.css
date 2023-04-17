@@ -1,0 +1,65 @@
+h1 { 
+    font-family: "copperplate", sans-serif;
+    font-size: 24px; 
+    font-style: bold; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    position: center;
+} 
+
+h3 { font-family: "copperplate", sans-serif;
+    font-size: 10px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+}
+
+p, body{ 
+    font-family: "copperplate", sans-serif;
+    font-size: 15px; 
+    font-style: bold; 
+    font-variant: bold; 
+    font-weight: 400; 
+    line-height: 20px; 
+    text-align: right;
+    background-image: url('/images/80608fedf804274de2f05d6405378198.png');
+    background-position: center;
+} 
+
+
+.content-artists{
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+}
+
+.item-artist{
+    list-style: none;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px 50px;
+    padding-right: 10%;
+    box-shadow: 2px 10px 10px rgb(138, 75, 119);
+    background: #ffc7ff;
+}  
+
+.albumphotos{
+    list-style: none;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px 50px;
+    background: #ffc7ff;
+    padding-right: 10%; 
+}
+
+figure {
+    margin: 0;
+}
+
+.background{
+background-image: url("/images/80608fedf804274de2f05d6405378198.png") no-repeat center;
+};
+

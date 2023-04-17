@@ -1,0 +1,16 @@
+
+<ul class = "content-artists">
+
+{{#each artists}}
+
+<li class="item-artist">
+  <img src="{{ this.images.[0].url }}"class="albumphotos">
+ <div lass="item-artist">
+   {{this.name}}<br>
+   </div>
+   <a href="/albums/{{this.id}}">view albums</a>
+</li>
+
+{{/each}}
+
+</ul>

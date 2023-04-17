@@ -1,0 +1,23 @@
+
+<ul class = "content-artists">
+
+{{#each songs.items}}
+
+<li class="item-artist">
+ 
+  <img src="{{ this.images.[0].url }}" class="albumphotos">
+   {{this.name}}<br>
+  <a href="/albums/{{this.id}}">view songs</a>
+</li>
+
+<audio
+        controls
+        src="{{this.preview_url}}">
+            <a href="{{this.preview_url}}">
+                Dplay audio
+            </a>
+    </audio>
+{{/each}}
+
+</ul>
+
